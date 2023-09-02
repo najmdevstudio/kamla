@@ -1,0 +1,28 @@
+
+
+.title-bar{
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  background: rgb(187,111,36);
+  background: -moz-radial-gradient(circle, rgba(187,111,36,1) 16%, rgba(235,27,58,1) 61%, rgba(48,48,48,1) 69%);
+  background: -webkit-radial-gradient(circle, rgba(187,111,36,1) 16%, rgba(235,27,58,1) 61%, rgba(48,48,48,1) 69%);
+  background: radial-gradient(circle, rgba(187,111,36,1) 16%, rgba(235,27,58,1) 61%, rgba(48,48,48,1) 69%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bb6f24",endColorstr="#303030",GradientType=1);
+}
+
+.logo{
+  margin-right: auto;
+}
+
+h3{
+  color: white;
+  margin-right: auto;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
