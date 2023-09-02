@@ -1,7 +1,7 @@
 
 
 .title-bar{
-  height: 15vh;
+  height: 12vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -25,4 +25,5 @@ h3{
   font-size: 40px;
   font-weight: bold;
   letter-spacing: 7px;
+  height: 45px;
 }
