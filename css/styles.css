@@ -1,6 +1,7 @@
 
-body{
+.background{
   background-image: url("/img/Artwork/6/Page Background.png");
+  backdrop-filter: blur(8px);
 }
 
 .title-bar{
@@ -84,8 +85,8 @@ h2{
 }
 
 .socialLogo{
-  height: 10vh;
-  width: 13vw;
+  height: 8vh;
+  width: 10vw;
   border-radius: 25%;
   padding: 10px;
 }
@@ -108,4 +109,65 @@ hr{
   border: 5px solid #f2762e;
   width: 95vw;
   background: #f2762e;
+  align-self: center;
 }
+
+.container {
+  display: grid;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+}
+
+.Screenshot{
+  height: 50vh;
+  width: 45vw;
+}
+
+.secondaryPromoText{
+  text-decoration: underline;
+}
+.newsletterEntry{
+  display: inline-flex;
+  width: 80vw;
+  align-items: center;
+  justify-content: center;
+  margin-left: 70px;
+}
+
+.newsletter{
+  height: 5vh;
+  margin-right: 30px;
+  width: 40vw;
+  border-radius: 15px;
+}
+
+::placeholder{
+  font-style: italic;
+  color: #555555;
+  text-align: center;
+}
+
+
+button{
+  padding: 10px;
+  height: 5vh;
+  width: 10vw;
+  border-radius: 15px;
+  color: white;
+  background: #555555;
+}
+
+.socialBar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  width: 70vw;
+  height: 20vh;
+}
+
+
