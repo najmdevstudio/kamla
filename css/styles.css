@@ -1,8 +1,11 @@
 
+body{
+  background-image: url("/img/Artwork/6/Page Background.png");
+}
 
 .title-bar{
   height: 12vh;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -18,19 +21,20 @@
   margin-right: auto;
 }
 
-h3{
+h2{
+  align-self: center;
   color: white;
   margin-right: auto;
+  padding-top: 20px;
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
   letter-spacing: 7px;
-  height: 45px;
 }
 
 .mainCapsule{
-  width: 120vh;
-  height: 60vh;
+  width: 65vw;
+  height: 40vh;
 }
 
 .main{
@@ -41,11 +45,12 @@ h3{
 }
 
 .promoHeadline{
+  font-family: 'Finger Paint', cursive;
   margin: 0;
   color: white;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 3rem;
+  font-weight: bold;
+  justify-content: right;
 }
 
 .promoSecondary{
@@ -57,10 +62,12 @@ h3{
 
 .wishlistonSteam{
   height: 10vh;
-  width: 30vh;
+  width: 45vw;
+  border-radius: 15%;
 }
 
 .mainPromo{
+  padding: 30px 10px 30px 10px;
   display: flex;
   justify-content: center;
   justify-items: center;
@@ -77,12 +84,28 @@ h3{
 }
 
 .socialLogo{
-  height: 15vh;
-  width: 15vh;
-  border-radius: 10%;
-  margin: 20px;
+  height: 10vh;
+  width: 13vw;
+  border-radius: 25%;
+  padding: 10px;
 }
 
 ul{
   list-style: none;
+}
+
+p{
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  word-spacing: 1px;
+}
+
+hr{
+  border: 5px solid #f2762e;
+  width: 95vw;
+  background: #f2762e;
 }
