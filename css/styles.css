@@ -1,5 +1,6 @@
 
 .background{
+  background-image: url("/img/Artwork/6/Page Background.png");
   backdrop-filter: blur(8px);
 }
 
